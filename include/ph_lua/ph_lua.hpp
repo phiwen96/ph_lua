@@ -1,4 +1,5 @@
-#pragma once
+#ifndef PH_LUA_HPP
+#define PH_LUA_HPP
 
 
 
@@ -134,3 +135,5 @@ template<>
 inline std::string LuaScript::lua_getdefault<std::string>() {
   return "null";
 }
+
+#endif
