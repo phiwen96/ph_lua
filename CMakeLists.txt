@@ -10,6 +10,7 @@ project (
 
 
 add_subdirectory (cmake/phake)
+add_subdirectory (dependencies/Lua-master)
 # if (NOT TARGET ph_coroutines)
 # 	add_subdirectory (dependencies/ph_coroutines)
 # endif ()
